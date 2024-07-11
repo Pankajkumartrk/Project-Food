@@ -1,27 +1,54 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
 
-.hdr {
-   
+
+body{
+    /* background-color: thistle; */
+  /* background-color: lavender; */
+  background-color:thistle;
+  padding: 0;
+  margin: 0;
 }
-.log {
-   
-   
-    background-image: url(../images/logo.png);
-    width: 150px;
-    background-size: cover;
-    /* background-repeat: no-repeat    ; */
+.mdv{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.optlist {
     
- }
-
-.optList {
-  
+    margin-left: 12px;
 }
-
-.tit {
+.tit{
+    padding: 12px;
+    width: 65px;
+    height: 25px;
+    text-align: center;
+}
+.log{
+    
+    width: 65px;
+    height: 25px;
+    text-align: center;
+    
+}
+a:hover {
+    background-color: rgb(59, 73, 75);
+    /* font-size: 20px; */
+    cursor: pointer;
+    border-radius: 16px;
+    color: rgb(240, 227, 227);
+  }
+  a:active {
+    /* background-color: red; */
  
-
-}
-
+    cursor: pointer;
+    
+  }
+   /* ----------------------sub-head  */
+   .subhead{
+   height: 500px;
+   background-color: red;
+   /* width: 200px; */
+   background-image: url(../images/cofee-2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+  margin: 12px 0px 12px 0px;
+   }

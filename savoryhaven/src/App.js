@@ -1,10 +1,12 @@
 
 import './App.css';
-import Header from './header/header';
+import Navbar from './component/navbar.js';
+import SubHead from './component/sub_head.js';
 function App() {
   return (
     <>
-   <Header/>
+   <Navbar/>
+   <SubHead/>
     </>
   );
 }
