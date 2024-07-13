@@ -5,33 +5,18 @@ import { a } from "react-router-dom";
 export default function navbar() {
   return (
     <>
-      <div className={styl.mdv}>
-        <div className={styl.log}>logo</div>
-        <div className={styl.optList}>
-          <a className={styl.tit} to="#">
-            Home
-          </a>
-
-          <a className={styl.tit} to="#">
-            Reservation
-          </a>
-          <a className={styl.tit} to="#">
-            Menu
-          </a>
-          <a className={styl.tit} to="#">
-            Blog
-          </a>
-          <a className={styl.tit} to="#">
-            Feature
-          </a>
-          <a className={styl.tit} to="#">
-            Shop
-          </a>
-          <a className={styl.tit} to="#">
-            Contact
-          </a>
-        </div>
-      </div>
+    <nav>
+      <label className={styl.label}>SAVORY HAVEN</label>
+      <ul >
+        <li><a href="/#">Home</a></li>
+        <li><a href="/#">Reservation</a></li>
+        <li><a  href="/#">Menu</a></li>
+        <li><a  href="/#">Blog</a></li>
+        <li><a href="/#">  Feature</a></li>
+        <li><a  href="/#">Shop</a></li>
+        <li><a  href="/#">Contacs</a></li>
+      </ul>
+      </nav>
     </>
   );
 }
