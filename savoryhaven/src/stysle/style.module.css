@@ -7,9 +7,10 @@
 }
 body{
   font-family: monospace;
+  background-color: rgb(0, 0, 0);
 }
 nav{
-  background: #0082e6;
+  background:rgb(26, 21, 31);
 width: 100%;
 height: 80px;
 display: flex;
@@ -74,10 +75,12 @@ p{
   width: 100%;
     height: 400px;
 }
-/* this is 3rd . card */
+/* this is 3rd and 4th . card */
 
 .cardpar{
   display: flex;
+  width: 80%;
+    margin-left: 10%;
 }
 .card {
   
@@ -87,6 +90,7 @@ p{
   border: 2px solid rgba(153, 97, 97, 0.725);
   margin-left: 20px;
   margin-top: 30px;
+  color: cadetblue;
 }
 
 .card:hover {
@@ -98,14 +102,29 @@ p{
 .contr {
   padding: 9px 16px;
   text-align: center;
+ 
 }
 .cardimg{
   width: 100%;
     height: 280px;
 }
 .cofflist{
+  color: cadetblue;
   text-align: center;
   margin-top: 20px;
   font-size: 20px;
   font-family: emoji;
+}
+/* this is footer . card */
+.footer{
+  margin-top: 12px;
+  width: 100%;
+ 
+  height: 200px;
+  background-color: rgb(26, 21, 31);
+
+}
+.footimg{
+  width: 100%;
+  height: 200px; 
 }
