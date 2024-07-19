@@ -13,7 +13,7 @@ export default function OurSpecialCoffe() {
     <div className={styls.card}>
       <img className={styls.cardimg} src={imgs} />
       <div className={styls.contr}>
-        <h4>
+        <h4 className={styls.cname}>
           <b>John Doe</b>
         </h4>
         <p>This coffee contain high energy</p>
@@ -22,7 +22,7 @@ export default function OurSpecialCoffe() {
     <div className={styls.card}>
       <img className={styls.cardimg} src={imgs2} />
       <div className={styls.contr}>
-        <h4>
+        <h4 className={styls.cname}>
           <b>John Doe</b>
         </h4>
         <p>This coffee contain high energy</p>
@@ -32,7 +32,7 @@ export default function OurSpecialCoffe() {
       <img className={styls.cardimg} src={imgs3} />
       <div className={styls.contr}>
         <h4>
-          <b>John Doe</b>
+          <b className={styls.cname}>John Doe</b>
         </h4>
         <p>This coffee contain high energy</p>
       </div>
@@ -40,7 +40,7 @@ export default function OurSpecialCoffe() {
     <div className={styls.card}>
       <img className={styls.cardimg} src={imgs4} />
       <div className={styls.contr}>
-        <h4>
+        <h4 className={styls.cname}>
           <b>John Doe</b>
         </h4>
         <p>This coffee contain high energy</p>

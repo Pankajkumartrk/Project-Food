@@ -15,6 +15,11 @@ width: 100%;
 height: 80px;
 display: flex;
 }
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .label{
 color: wheat;
 font-size: 35px;
@@ -108,10 +113,23 @@ p{
   width: 100%;
     height: 280px;
 }
+.cname{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  word-spacing: 8px;
+  font-size: 18px;
+    color: rgba(215, 99, 57, 0.821);
+}
 .cofflist{
   color: cadetblue;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 130px;
+  font-size: 20px;
+  font-family: emoji;
+}
+.cofflist2{
+  color: cadetblue;
+  text-align: center;
+  margin-top: 80px;
   font-size: 20px;
   font-family: emoji;
 }
@@ -120,11 +138,30 @@ p{
   margin-top: 12px;
   width: 100%;
  
-  height: 200px;
-  background-color: rgb(26, 21, 31);
-
+  height: 250px;
+  background:rgb(26, 21, 31);
+display: flex;
+color: white;
+justify-content: center;
 }
-.footimg{
-  width: 100%;
-  height: 200px; 
+.box1{margin: 10px;
+  padding: 5px;
+  width: 420px;
+  text-align: center;
+  overflow: hidden;
 }
+.fname{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  word-spacing: 8px;
+  font-size: 23px;
+    color: rgba(215, 99, 57, 0.821);
+   
+}
+.fnamesub{
+  color: #768ccdbd;
+  font-size: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  word-spacing: 2px;
+  padding-top: 12px;
+}
+p{font-family: 'Times New Roman', serif;}

@@ -8,13 +8,13 @@ import imgs4 from "../images/dessert.4jpg.jpg";
 export default function OurSpecialDessert() {
   return (
     <>
-    <h2 className={styls.cofflist}>OUR SPECIAL DESSERT </h2>
+    <h2 className={styls.cofflist2}>OUR SPECIAL DESSERT </h2>
     <div className={styls.cardpar}>
       
     <div className={styls.card}>
       <img className={styls.cardimg} src={imgs} />
       <div className={styls.contr}>
-        <h4>
+        <h4 className={styls.cname}>
           <b>John Doe</b>
         </h4>
         <p>This coffee contain high energy</p>
@@ -23,7 +23,7 @@ export default function OurSpecialDessert() {
     <div className={styls.card}>
       <img className={styls.cardimg} src={imgs2} />
       <div className={styls.contr}>
-        <h4>
+        <h4 className={styls.cname}>
           <b>John Doe</b>
         </h4>
         <p>This coffee contain high energy</p>
@@ -32,7 +32,7 @@ export default function OurSpecialDessert() {
     <div className={styls.card}>
       <img className={styls.cardimg} src={imgs3} />
       <div className={styls.contr}>
-        <h4>
+        <h4 className={styls.cname}>
           <b>John Doe</b>
         </h4>
         <p>This coffee contain high energy</p>
@@ -41,7 +41,7 @@ export default function OurSpecialDessert() {
     <div className={styls.card}>
       <img className={styls.cardimg} src={imgs4} />
       <div className={styls.contr}>
-        <h4>
+        <h4 className={styls.cname}>
           <b>John Doe</b>
         </h4>
         <p>This coffee contain high energy</p>
