@@ -1,7 +1,7 @@
 import React from "react";
 import styl from "../stysle/style.module.css";
 // import log from '../images/logo.png'
-import { a } from "react-router-dom";
+import { } from "react-router-dom";
 export default function navbar() {
   return (
     <>

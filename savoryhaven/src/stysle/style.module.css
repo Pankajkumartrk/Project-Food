@@ -7,10 +7,10 @@
 }
 body{
   font-family: monospace;
-  background-color: rgb(0, 0, 0);
+  background-color: black
 }
 nav{
-  background:rgb(26, 21, 31);
+  background-color:#465672  ;
 width: 100%;
 height: 80px;
 display: flex;
@@ -22,7 +22,7 @@ nav {
 }
 .label{
 color: wheat;
-font-size: 35px;
+font-size: 25px;
 line-height: 80px;
 padding: 0 100px;
 font-weight: bold;
@@ -111,7 +111,7 @@ p{
 }
 .cardimg{
   width: 100%;
-    height: 280px;
+    height: 255px;
 }
 .cname{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -137,31 +137,44 @@ p{
 .footer{
   margin-top: 12px;
   width: 100%;
- 
-  height: 250px;
-  background:rgb(26, 21, 31);
+  
+  height: 300px;
+  background-color:#465672 ;
 display: flex;
 color: white;
 justify-content: center;
+
 }
-.box1{margin: 10px;
-  padding: 5px;
-  width: 420px;
+.box1{margin: 40px;
+  padding: 25px;
+  width: 380px;
   text-align: center;
   overflow: hidden;
 }
 .fname{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Times New Roman', serif;;
   word-spacing: 8px;
-  font-size: 23px;
-    color: rgba(215, 99, 57, 0.821);
+  
+    color: rgba(34, 15, 9, 0.821);
    
 }
 .fnamesub{
-  color: #768ccdbd;
-  font-size: 18px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #1a1b20;
+ font-size: 13px;
+  font-family: 'Times New Roman', serif;;
   word-spacing: 2px;
   padding-top: 12px;
 }
 p{font-family: 'Times New Roman', serif;}
+.btfoot{
+  text-align: center;
+  background-color:    #212429 ;
+  height:  70px;
+ color: wheat;
+}
+.btfoottxt{
+  font-size: 20px;
+  font-family: 'Times New Roman', serif;;
+  word-spacing: 2px;
+  padding: 20px;
+}
