@@ -63,70 +63,104 @@ font-weight: 900;
 .imgSlider{
   margin-top: 100px;
   width: 100%;
- height: auto;
+ height: 400px;
   display: block;
+  border: 2px solid grey;
+  /* box-shadow: 20px 8px 20px 4 px; */
+  border-radius: 10px;
 }
 
-/* this is 3rd and 4th . card */
+/* -----------------------------this is 3rd and 4th . card */
 
 .cardpar{
   display: flex;
-  width: 80%;
-    margin-left: 10%;
-}
+  width: 100%;
+   /* margin-left: 12px;
+   margin-right: 12px; */
+   /* padding-top: 15px; */
+   /* background-color: red; */
+   justify-content: center;
+   padding: 15px;
+  }
+  #cardSec2{
+    
+   margin-left: 10px;
+   /* margin-right: 10px; */
+  }
+
+  #cardSec{
+    
+    margin-left: 7px;
+    /* margin-right: 7px; */
+   }
+ 
+   #cardSec3{
+    
+    margin-left: 10px;
+    /* margin-right: 10px; */
+   }
+ 
 .card {
-  
+  box-sizing: border-box;
   box-shadow: 0 4px 8px 0 rgba(41, 38, 38, 0.841);
   transition: 0.2s;
-  width: 23%;
+  width: 18%;
   border: 2px solid rgba(153, 97, 97, 0.725);
-  margin-left: 20px;
-  margin-top: 30px;
-  color:black;
+ /* margin-left: 16px; */
+  color:white;
+background-color: rgb(34, 30, 30);
 }
 
 .card:hover {
-  box-shadow: 3px 4px 13px 2px rgb(35, 44, 38);
-   background-color:rgba(7, 26, 49, 0.493);
-   color: white;
+  box-shadow: 3px 4px 13px 2px rgb(29, 48, 35);
+   background-color:rgba(2, 37, 36, 0.493);
+  color: black;
 
 
 }
+p{font-family: 'Times New Roman', serif;
+  /* color: black; */
+  font-size: small;
+ padding-top: 12px;
+ padding-bottom: 8px;
+}
 
 .contr {
-  padding: 9px 16px;
+  padding: auto;
   text-align: center;
  
 }
 .cardimg{
   width: 100%;
-    height: 255px;
+    height:230px;
+   
 }
 .cname{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  word-spacing: 8px;
-  font-size: 18px;
+  word-spacing: 4spx;
+  font-size: 16px;
+  padding-top: 14px;
     /* color: rgba(0, 0, 0, 0.479); */
 }
 .cofflist{
   color: black;
   text-align: center;
-  margin-top: 130px;
+  margin-top: 30px;
   font-size: 20px;
   font-family: emoji;
 }
 .cofflist2{
   color:black;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 30px;
   font-size: 20px;
   font-family: emoji;
 }
-                                   /* this is footer . card */
+                /* this is footer . card */
 .footer{
   margin-top: 25px;
   width: 100%;
-  
+  margin-bottom: 0;
   height: auto;
   background-color:#77B0AA ;
 display: flex;
@@ -134,40 +168,44 @@ color: white;
 justify-content: center;
 
 }
-.box1{margin: 33px;
-  padding: 13px;
-  width: 380px;
+.box1{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  width: max-content;
   text-align: center;
   overflow: hidden;
-  font-size: 12px;
-  height: 210px;
-}
+  padding-right: 2px;
+  padding-left: 2px;
+  height: auto;
+  color: black;}
 .fname{
   font-family: 'Times New Roman', serif;;
   word-spacing: 8px;
-  
-    color: rgba(34, 15, 9, 0.821);
+  font-size: 13px;
+    color:black;
    
 }
 .fnamesub{
-  color: #1a1b20;
- font-size: 13px;
+  /* color: #1a1b20; */
+ font-size:12px;
   font-family: 'Times New Roman', serif;;
   word-spacing: 2px;
   padding-top: 12px;
 }
-p{font-family: 'Times New Roman', serif;
-  color: #161616;
-  padding-top: 10px;
+.fpagr{font-family: 'Times New Roman', serif;
+  /* color: black; */
+  font-size: small;
+ padding-top: 12px;
 }
 .btfoot{
   text-align: center;
   background-color: #003C43;
-  height:  70px;
+  height:  auto;
  color: wheat;
+width: 100%;
 }
 .btfoottxt{
-  font-size: 20px;
+  font-size: 13px;
   font-family: 'Times New Roman', serif;;
   word-spacing: 2px;
   padding: 20px;
